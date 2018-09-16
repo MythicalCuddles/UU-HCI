@@ -1,0 +1,150 @@
+<html>
+	<head>
+		<!-- CSS -->
+		<!-- Bootstrap 4.1.1 -->
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<!-- FontAwesome 5.1.0 -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/main.css" />
+		
+		<!-- Scripts -->
+		<!-- Bootstrap 4.1.1 -->
+		<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>-->
+		<script src="js/bootstrap.js"></script>
+		
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="description" content="my first web-page" />
+		<meta name="author" content="Melissa Brennan" />
+		<meta name="keywords" content="{tags}" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!-- Other -->
+		<title>Rochdale Medical Practice - Manage Staff Member</title>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="sidebar" class="p-3 mb-2">
+				<div id="logo">
+					<img src="images/logo.png" alt="Rochdale Medical Practice logo" class="img-fluid" />
+				</div>
+
+				<ul id="navigation" class="nav flex-column">
+				    <li class="nav-item">
+				        <a class="nav-link active" href="home.html">
+				        	<button type="button" class="btn btn-dark" style="width:100%;"><i class="fas fa-home"></i> Home Page</button>
+				        </a>
+				    </li>
+				    <li class="nav-item">
+				    	<a class="nav-link" href="clientmanager.html">
+				        	<button type="button" class="btn btn-dark" style="width:100%;"><i class="fas fa-user"></i> Manage Clients</button>
+				    	</a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link" href="staffmanager.html">
+				    		<button type="button" class="btn btn-dark" style="width:100%;"><i class="fas fa-user-md"></i> Manage Staff</button>
+				    	</a>
+				  	</li>
+				    <li class="nav-item">
+				    	<a class="nav-link" href="appointmentmanager.html">
+				    		<button type="button" class="btn btn-dark" style="width:100%;"><i class="fas fa-calendar-check"></i> Manage Appointments</button>
+				    	</a>
+				  	</li>
+				    <li class="nav-item">
+				    	<a class="nav-link" href="logout.html">
+				    	<button type="button" class="btn btn-dark" style="width:100%;"><i class="fas fa-sign-out-alt"></i> Log Out</button>
+				    	</a>
+				  	</li>
+				</ul>
+
+				<div id="footer">
+					<p class="p-3 mb-2">Copyright &copy; 2018 <a href="http://scm.ulster.ac.uk/~B00714027">Melissa Brennan</a></p>
+				</div>
+			</div>
+
+			<div id="body">
+				<div id="box">
+					<h1>Staff Member Details - Nurse Melissa Blackmore</h1>
+					<p class="p-3 mb-2">
+						Please save if any changes have been made by pressing "Save Changes" below.
+					</p>
+					
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Full Name</span>
+						</div>
+						<div class="input-group-prepend">
+							<select>
+								<option value="Title" disabled>Title</option>
+								<option value="Dr">Dr</option>
+								<option value="Nurse" selected>Nurse</option>
+								<option value="Other">Other</option>
+							</select>
+						</div>
+						<input type="text" class="form-control" placeholder="Full Name" value="Melissa Blackmore">
+					</div>
+					
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">D.O.B</span>
+						</div>
+						<input type="date" class="form-control" placeholder="DOB" value="1985-11-19">
+					</div>
+					
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Contact Number</span>
+						</div>
+						<input type="text" class="form-control" placeholder="Contact Number" value="07515 600900">
+					</div>
+					
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Address</span>
+						</div>
+						<textarea type="text" class="form-control" placeholder="">31 Lewis Street, Rochdale</textarea>
+					</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Postcode</span>
+						</div>
+						<input type="text" class="form-control" placeholder="Post Code" value="RD14 4EX">
+					</div>
+					
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Surgery</span>
+						</div>
+						<input type="text" class="form-control" placeholder="Surgery" value="Treatment Room">
+					</div>
+					
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Area of Expertise</span>
+						</div>
+						<input type="text" class="form-control" placeholder="Area of Expertise" value="Public Health/Public Health Nursing">
+					</div>
+					
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Additional Notes</span>
+						</div>
+						<textarea type="text" class="form-control" placeholder="Additional Notes">No additional notes</textarea>
+					</div>
+					
+					
+					
+					<br />
+					<a href="liststaff.html"><button type="button" class="btn btn-primary" style="float: right;">Save Changes</button></a>
+					<a href="liststaff.html"><button type="button" class="btn btn-danger" style="float: right;">Remove Staff Member</button></a>
+					<a href="liststaff.html"><button type="button" class="btn btn-secondary" style="float: right;">Go Back</button></a>
+					<br />
+					<br />	
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

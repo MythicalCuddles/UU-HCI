@@ -1,0 +1,152 @@
+<html>
+	<head>
+		<!-- CSS -->
+		<!-- Bootstrap 4.1.1 -->
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<!-- FontAwesome 5.1.0 -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/main.css" />
+		
+		<!-- Scripts -->
+		<!-- Bootstrap 4.1.1 -->
+		<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>-->
+		<script src="js/bootstrap.js"></script>
+		
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="description" content="my first web-page" />
+		<meta name="author" content="Melissa Brennan" />
+		<meta name="keywords" content="{tags}" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!-- Other -->
+		<title>Rochdale Medical Practice - Client List</title>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="sidebar" class="p-3 mb-2">
+				<div id="logo">
+					<img src="images/logo.png" alt="Rochdale Medical Practice logo" class="img-fluid" />
+				</div>
+
+				<ul id="navigation" class="nav flex-column">
+				    <li class="nav-item">
+				        <a class="nav-link active" href="home.html">
+				        	<button type="button" class="btn btn-dark" style="width:100%;"><i class="fas fa-home"></i> Home Page</button>
+				        </a>
+				    </li>
+				    <li class="nav-item">
+				    	<a class="nav-link" href="clientmanager.html">
+				        	<button type="button" class="btn btn-dark" style="width:100%;"><i class="fas fa-user"></i> Manage Clients</button>
+				    	</a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link" href="staffmanager.html">
+				    		<button type="button" class="btn btn-dark" style="width:100%;"><i class="fas fa-user-md"></i> Manage Staff</button>
+				    	</a>
+				  	</li>
+				    <li class="nav-item">
+				    	<a class="nav-link" href="appointmentmanager.html">
+				    		<button type="button" class="btn btn-dark" style="width:100%;"><i class="fas fa-calendar-check"></i> Manage Appointments</button>
+				    	</a>
+				  	</li>
+				    <li class="nav-item">
+				    	<a class="nav-link" href="logout.html">
+				    	<button type="button" class="btn btn-dark" style="width:100%;"><i class="fas fa-sign-out-alt"></i> Log Out</button>
+				    	</a>
+				  	</li>
+				</ul>
+
+				<div id="footer">
+					<p class="p-3 mb-2">Copyright &copy; 2018 <a href="http://scm.ulster.ac.uk/~B00714027">Melissa Brennan</a></p>
+				</div>
+			</div>
+
+			<div id="body">
+				<div id="box">
+					<h1>Client List</h1>
+					<h2>Search</h2>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Name</span>
+						</div>
+						<input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button" id="button-addon2">Apply</button>
+						</div>
+					</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">D.O.B</span>
+						</div>
+						<input type="date" class="form-control" placeholder="DOB" aria-label="DOB" aria-describedby="basic-addon1">
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button" id="button-addon2">Apply</button>
+						</div>
+					</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Address</span>
+						</div>
+						<input type="text" class="form-control" placeholder="Address" aria-label="Address" aria-describedby="basic-addon1">
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button" id="button-addon2">Apply</button>
+						</div>
+					</div>
+					<br />
+					
+					<h2>Clients</h2>
+					<p class="p-3 mb-2">
+						<strong>MR OSCAR SANTIAGO</strong>
+						<br />
+						<strong>D.O.B: </strong> October 23, 1988 (29 years old)
+						<br />
+						<strong>Contact Number: </strong> 07751 123456
+						<br />
+						<strong>Address: </strong>221b Baker St, Rochdale
+						<br />
+						<strong>Physical Characteristics</strong>
+						<br />
+						<strong>Height: </strong>6' 2" (189 centimeters) | <strong>Weight: </strong>134.2 pounds (61.0 kilograms) | <strong>Blood type: </strong> O+
+						<a href="viewclient-oscarsantiago.html"><button type="button" class="btn btn-secondary" style="float: right;">View Client Details</button></a>
+					</p>
+					<p class="p-3 mb-2">
+						<strong>MS EMMA STUART</strong>
+						<br />
+						<strong>D.O.B: </strong> November 15, 1994 (23 years old)
+						<br />
+						<strong>Contact Number: </strong> 07736 078746
+						<br />
+						<strong>Address: </strong>19 Stoney Lane, Rochdale
+						<br />
+						<strong>Physical Characteristics</strong>
+						<br />
+						<strong>Height: </strong>5' 9" (174 centimeters) | <strong>Weight: </strong>140.8 pounds (64.0 kilograms) | <strong>Blood type: </strong> Unknown
+						<a href="viewclient-emmastuart.html"><button type="button" class="btn btn-secondary" style="float: right;">View Client Details</button></a>
+					</p>
+					<p class="p-3 mb-2">
+						<strong>MS MARCELINE UNWIN</strong>
+						<br />
+						<strong>D.O.B: </strong> November 19, 1994 (23 years old)
+						<br />
+						<strong>Contact Number: </strong> 07695 070769
+						<br />
+						<strong>Address: </strong>51 Preston Street, Rochdale
+						<br />
+						<strong>Physical Characteristics</strong>
+						<br />
+						<strong>Height: </strong>Unknown | <strong>Weight: </strong>184.4 pounds (83.8 kilograms) | <strong>Blood type: </strong> Unknown
+						<a href="viewclient-marcelineunwin.html"><button type="button" class="btn btn-secondary" style="float: right;">View Client Details</button></a>
+					</p>
+					<br />
+					<button type="button" class="btn btn-secondary" style="float: right;">Next Page</button>
+					<br />
+					<br />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
